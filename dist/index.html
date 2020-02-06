@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Pomodoro Timer | Manager Your Work</title>
+  </head>
+  <body>
+    <header id="main-header">
+      <div class="container nav-bar">
+        <h1 class="heading-m icon">Pomodoro Timer</h1>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="#home-c">About</a>
+          <a href="#">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <section id="home-a">
+      <!-- pharse1 -->
+      <div class="container content">
+        <h1 class="py-3 heading-l">Setting your tomato</h1>
+        <div class="form-group">
+          <form>
+            <label>Working time: </label>
+            <input
+              type="text"
+              name="work-time"
+              id="work-time"
+              placeholder="Minutes"
+            />
+          </form>
+          <form>
+            <label>Break time: </label>
+            <input
+              type="text"
+              name="break-time"
+              id="break-time"
+              placeholder="Minutes"
+            />
+          </form>
+          <form>
+            <label>How many tomato will you draw? </label>
+            <input type="text" name="loop" id="loop-time" placeholder="Times" />
+          </form>
+        </div>
+        <a href="#home-b" class="btn" id="start-btn">Start</a>
+      </div>
+    </section>
+    <section id="home-b">
+      <!-- pharse2 -->
+      <a href="#home-a" id="back-btn" class="btn"><---Back</a>
+      <div class="container content center">
+        <div id="countdown-box" class="py-2">
+          <h1 id="countdowns" class="heading-l py-1 center">COUNTDOWN</h1>
+          <p class="py-1 lead center" id="count-down">... seconds</p>
+          <button class="btn" id="start-stop">Stop</button>
+        </div>
+        <div class="tomato-box">
+          <h1 id="your-tomatoes" class="heading-l py-2 center">
+            YOUR TOMATOES
+          </h1>
+          <div class="tomato-img">
+            <!-- <img
+              class="current-icon clear-icon"
+              src="/dist/images/icon1.svg"
+              alt="tomato icon"
+            />
+            <img
+              class="tomato"
+              src="/dist/images/icon1.svg"
+              alt="tomato icon"
+            /> -->
+          </div>
+          <p id="tomatoes-left" class="center py-1">
+            There are ... tomato left!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="home-c">
+      <div class="container content center">
+        <h1 class="heading-l py-2">About</h1>
+        <p>
+          The Pomodoro Technique is a time management method developed by
+          Francesco Cirillo in the late 1980s.The technique uses a timer to
+          break down work into intervals, traditionally 25 minutes in length,
+          separated by short breaks. Each interval is known as a pomodoro, from
+          the Italian word for 'tomato', after the tomato-shaped kitchen timer
+          that Cirillo used as a university student
+        </p>
+      </div>
+    </section>
+
+    <footer id="main-footer">
+      <div class="container"></div>
+      <p class="center py-1">Copyright @Copyright 2020 by Triet.Le</p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
