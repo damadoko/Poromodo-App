@@ -186,7 +186,7 @@ var UIController = (function() {
     },
     addTomato: function() {
       var html =
-        '<img class="tomato" src="/dist/images/icon1.svg" alt="tomato icon"/>';
+        '<img class="tomato" src="../images/icon1.svg" alt="tomato icon"/>';
       document
         .querySelector(DOMstring.tomatoesContainter)
         .insertAdjacentHTML("beforeend", html);
