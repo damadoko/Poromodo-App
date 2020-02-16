@@ -100,7 +100,9 @@ a {
 }
 #main-header .nav-bar {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 #main-header .nav-bar h1 {
   padding: 1.5rem;
@@ -111,7 +113,7 @@ a {
 }
 #main-header .nav-bar nav a {
   display: flex;
-  padding: 1.5rem;
+  padding: 0.75rem;
   transition: all ease-in-out 0.5s;
   border-radius: 5px;
 }
@@ -145,7 +147,7 @@ a {
 }
 #home-b #back-btn {
   position: absolute;
-  top: 10vh;
+  top: 80vh;
   left: 0;
 }
 #home-b .tomato {
@@ -169,4 +171,30 @@ a {
   left: 0;
   right: 0;
   z-index: 1;
+}
+
+.icon {
+  border-bottom: 1px solid #df4e4e;
+}
+
+.heading-l {
+  font-size: 2rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+}
+
+a {
+  padding: 0.75rem;
+}
+
+.heading-m {
+  font-size: 1.5rem;
 }
