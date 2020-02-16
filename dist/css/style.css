@@ -99,7 +99,7 @@ a {
 
 #home-a {
   height: 100vh;
-  background: url(/dist/images/background.jpg) center center/cover;
+  background: url(../images/background.jpg) center center/cover;
   color: #f4f4f4; }
   #home-a .form-group {
     display: flex;
@@ -114,7 +114,7 @@ a {
 #home-b {
   position: relative;
   height: 100vh;
-  background: url(/dist/images/background.jpg) center center/cover;
+  background: url(../images/background.jpg) center center/cover;
   color: #f4f4f4; }
   #home-b #back-btn {
     position: absolute;
@@ -128,7 +128,7 @@ a {
 
 #home-c {
   height: 100vh;
-  background: url(/dist/images/background.jpg) center center/cover;
+  background: url(../images/background.jpg) center center/cover;
   color: #f4f4f4; }
 
 #main-footer {

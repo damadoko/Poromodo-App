@@ -40,7 +40,7 @@
 #home {
   &-a {
     height: 100vh;
-    background: url(/dist/images/background.jpg) center center/cover;
+    background: url(../images/background.jpg) center center/cover;
     color: $light-color;
 
     // Pharse 1
@@ -65,7 +65,7 @@
   &-b {
     position: relative;
     height: 100vh;
-    background: url(/dist/images/background.jpg) center center/cover;
+    background: url(../images/background.jpg) center center/cover;
     color: $light-color;
 
     #back-btn {
@@ -85,7 +85,7 @@
   }
   &-c {
     height: 100vh;
-    background: url(/dist/images/background.jpg) center center/cover;
+    background: url(../images/background.jpg) center center/cover;
     color: $light-color;
   }
 }
